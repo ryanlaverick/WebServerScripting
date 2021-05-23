@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Delete user</title>
+    </head>
+    
+    <body>
+        <h1>Delete user</h1>
+        <h2>Enter the account you wish to delete</h2>
+        
+        <form name="details" action="deleteUser.php" method="post">
+            <input type="hidden" name="user_edited" value="1">
+            <p>Username of account to delete</p>
+            <input type="text" name="accountName"/>
+            <br>
+            <br><br>
+            <input type="submit" value="Delete user"/>
+        </form>
+        
+        <br><br>
+        <a href="index.php">Return to home page</a>
+    </body>
+</html>

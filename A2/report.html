@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>Report</title>
+</head>
+
+<body>
+    <h1>Report-a-fault page!</h1>
+    
+    <div class="container">
+        <form name="details" action="reportfault.php" method="post">
+            <input type="hidden" name="user_edited" value="1">
+            <br>
+            <p>Fault title</p>
+            <input type="text" name="faultTitle"/>
+            <br>
+            <p>Fault description</p>
+            <input type="text" name="faultDescription"/>
+            <br>
+            <p>Fault location</p>
+            <input type="text" name="faultLocation"/>
+            <br><br>
+            
+            <input type="submit" value="Submit fault">
+        </form>
+    </div>
+    
+    <br><br>
+    <a href="index.php">Return to home page</a>
+</body>
+
+</html>

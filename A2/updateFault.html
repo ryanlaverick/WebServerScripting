@@ -1,0 +1,40 @@
+<html>
+<head>
+    <title>Update</title>
+</head>
+
+<body>
+    <h1>Update-a-fault page!</h1>
+    
+    <div class="container">
+        <form name="details" action="updateFault.php" method="post">
+            <input type="hidden" name="user_edited" value="1">
+            <br>
+            <p>Fault ID</p>
+            <input type="text" name="faultID"/>
+            <br>
+            <p>Fault title</p>
+            <input type="text" name="faultTitle"/>
+            <br>
+            <p>Fault description</p>
+            <input type="text" name="faultDescription"/>
+            <br>
+            <p>Fault location</p>
+            <input type="text" name="faultLocation"/>
+            <br>
+            <p>Fault status</p>
+            <input type="text" name="faultStatus"/>
+            <br>
+            <p>Fault technician</p>
+            <input type="text" name="faultTechnician"/>
+            <br><br>
+            
+            <input type="submit" value="Submit fault">
+        </form>
+    </div>
+    
+    <br><br>
+    <a href="index.php">Return to home page</a>
+</body>
+
+</html>

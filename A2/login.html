@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login</title>
+    </head>
+    
+    <body>
+        
+        <h1>Login page</h1>
+        <p>Enter your username and password to login:</p>
+            
+        <form name="details" action="login.php" method="post">
+            <input type="hidden" name="user_edited" value="1">
+            <br>
+            <p>Username</p>
+            <input type="text" name="username"/>
+            <br>
+            <p>Password</p>
+            <input type="password" name="password"/>
+            <br><br>
+            <input type="submit" value="Login"/>
+        </form>
+        
+        <br><br>
+        <a href="index.php">Return to home page</a>
+    </body>
+</html>

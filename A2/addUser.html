@@ -1,0 +1,27 @@
+<html>
+    <head>
+        <title>Create user</title>
+    </head>
+    
+    <body>
+        <h1>Create user account</h1>
+        <h2>Please complete the form bellow, filling in all fields to create an account</h2>
+        
+        <form name="details" action="addUser.php" method="post">
+            <input type="hidden" name="user_edited" value="1">
+            <p>Account username</p>
+            <input type="text" name="accountUsername"/>
+            <br>
+            <p>Account password</p>
+            <input type="password" name="accountPassword"/>
+            <br>
+            <p>Confirm password</p>
+            <input type="password" name="confirmAccountPassword"/>
+            <br><br>
+            <input type="submit" value="Create user">
+        </form>
+        
+        <br><br>
+        <a href="index.php">Return to home page</a>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h1>Admin lounge</h1>
+    </head>
+    
+    <body>
+        <button id="addUser" type="button">Add User</button>
+        <button id="deleteUser" type="button">Delete User</button>
+        <button id="viewFaults" type="button">View faults</button>
+        <button id="reportFault" type="button">Report fault</button>
+        <button id="statistics" type="button">Website statistics</button>
+        
+        <script type="text/javascript">
+            document.getElementById("addUser").onclick = function() {
+                location.href = "addUser.html";
+            }
+            
+            document.getElementById("deleteUser").onclick = function() {
+                location.href = "deleteUser.html";
+            }
+            
+            document.getElementById("viewFaults").onclick = function() {
+                location.href = "viewFaults.php";
+            }
+            
+            document.getElementById("reportFault").onclick = function() {
+                location.href = "report.html";
+            }
+            
+            document.getElementById("statistics").onclick = function() {
+                location.href = "statistics.php";
+            }
+        </script>
+        
+        <br><br>
+        <a href="index.php">Return to home page</a>
+    </body>
+</html>
